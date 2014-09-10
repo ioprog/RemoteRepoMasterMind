@@ -19,7 +19,10 @@ public class MasterMind_Level1
           String s = scan.next();
 	      c = s.charAt(0);
 	  } while (c == 'y' || c == 'Y');
+	  
 	  System.out.println("Game over!");
+	  
+	  System.out.println("Thanks for using the program!");
    }
    
    public static void play()
